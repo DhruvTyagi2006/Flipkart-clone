@@ -35,7 +35,6 @@ flipkart-clone/
 │
 ├── index.html        # Main HTML file
 ├── style.css         # CSS styling file
-├── images/           # Images and icons used in the project
 └── README.md         # Project documentation
 ```
 
@@ -46,7 +45,7 @@ flipkart-clone/
 1. Clone the repository
 
 ```
-git clone https://github.com/your-username/flipkart-clone.git
+git clone https://github.com/DhruvTyagi2006/Flipkart-clone
 ```
 
 2. Open the project folder
