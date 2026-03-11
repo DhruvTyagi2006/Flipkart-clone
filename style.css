@@ -1,0 +1,458 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    box-sizing: border-box;
+}
+
+.navbar{
+    background-color: white;
+    height: 67.2px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-logo{
+    height: 50px;
+    width: 200px;
+    position: relative;
+}
+
+.logo{
+    background-image: url("logo.png");
+    height: 100px;
+    width: 200px;
+    background-size: cover;
+    position: relative;
+    bottom: 50px;
+}
+
+/** navigation bar styling **/
+.nav-search{
+    margin-left: 20px;
+    height: 40px;
+    width: 50%;
+    background-color: #f0f5ff;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.search-icon{
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    color: #b4b7bf;
+}
+
+.search-bar{
+    height: 30px;
+    width: 90%;
+    font-size: 1rem;
+    background-color: #f0f5ff;
+    border: none;
+}
+
+/** login box styling **/
+.login{
+    height: 40px;
+    width: 10%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-left: 5px;
+    
+}
+
+.login-icon{
+    margin-right: 8px;
+    font-size: 1.2rem;
+}
+
+.login-text{
+    font-size: 16px;
+    margin-right: 2px;
+}
+
+.login-select{
+    height: 40px;
+    width: 20px;
+    border: none;
+}
+
+/** cart box styling **/
+.cart{
+    height: 42px;
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+}
+
+.cart-icon{
+    font-size: 1.2rem;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/** fifth box **/
+.fifth-box{
+    height: 40px;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+}
+
+.shop-icon{
+    font-size: 1.2rem;
+    margin-right: 8px;
+}
+
+/** three dots dropdown styling **/
+.dropdown-dots button{
+    background-color: white;
+    height: 41.6px;
+    width: 41.6px;
+    cursor: pointer;
+    border: none;
+    font-size: 24px;
+    margin-right: 50px;
+}
+
+.dropdown-dots a{
+    display: block;
+    color: black;
+    text-decoration: none;
+}
+
+.dropdown-contents{
+    display: none;
+    position: absolute;
+    background-color: white;
+    box-shadow: 2px 2px 2px grey;
+    border-radius: 10px;
+    
+}
+
+.dropdown-dots:hover .dropdown-contents{
+    display: block;
+}
+
+/** hero section styling **/
+.hero-section{
+    background-color: #f1f2f4;
+    height: 350px;  
+    display: flex;
+    flex-direction: column;
+    padding: 8px 15px 20px;
+}
+
+.categories{
+    height: 140px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;   
+    padding-left: 100px;
+    padding-right: 100px;
+    font-size: 14px;
+    font-weight: 550;   
+}
+
+/** category images styling **/
+.images{
+    height: 64px;
+    width: 64px;
+    background-size: cover;
+    margin-bottom: 10px;
+}
+
+.hero-image{
+    background-image: url("banner-image.png");
+    height: 250px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    margin-top: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/** top deals section styling **/
+.top-deals-text{
+    background-color: #f1f2f4;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-weight: 550;
+}
+
+.text-container{
+    height: 62px;
+    background-color: white;
+    padding: 16px;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+}
+
+/** products section styling **/
+.top-deals{
+    height: 256px;
+    background-color: #f1f2f4;
+    padding-left: 15px;
+    padding-right: 15px;
+    
+}
+
+.top-deals-container{
+    background-color: white;
+    height: 244px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    font-size: 14px;
+}
+
+.deal-image{
+    height: 190px;
+    width: 190px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.deal-image1{
+    padding-bottom: 50px;
+}
+
+.deal-image2{
+    padding-bottom: 50px;
+}
+
+.deal-image3{
+    padding-bottom: 50px;
+}
+
+.deal-image4{
+    padding-bottom: 50px;
+}
+
+.deal-image5{
+    padding-bottom: 50px;
+}
+
+.deal-image6{
+    padding-bottom: 50px;
+}
+
+.top-deals-container p{
+    font-weight: 550;
+}
+
+/* gadget section styling */
+.gadgets-box{
+    height: 650px;
+    width: 491.5px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #f1f2f4;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.gadgets-text-container{
+    height: 80px;
+    width: 480px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    font-size: 14px;
+    font-weight: 550;
+}
+
+.gadgets-text{
+    display: flex;
+    align-items: center;
+    gap: 150px;
+}
+
+.gadgets-text i{
+    font-size: 1.5rem;
+    color: #2a55e5;
+}
+
+.gadgets-container{
+    background-color: white;
+    height: 566px;
+    width: 480px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.gadgets-options{
+    height: 265px;
+    width: 215px;
+    background-color: white;
+    border: 1px solid lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 17px;
+}
+
+.gadgets-options a{
+    text-decoration: none;
+    color: black;
+    padding-top: 10px;
+}
+
+.gadgets-options p{
+    color: #10895b;
+    font-weight: 550;
+    padding-top: 8px;
+}
+
+.option-image{
+    height: 160px;
+    width: 160px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.gadgets-section{
+    display: flex;
+    gap: 20px;
+    background-color: #f1f2f4;
+    padding-right: 15px;
+}
+
+.gadgets-banner{
+    flex: 1;
+    height: 650px;
+    background-image: url("big-image.png");
+    background-size: cover;
+    background-position: center;
+}
+
+/** shopping section styling **/
+.shopping-section{
+    height: 665px;
+    background-color: #f1f2f4;
+    padding-top: 15px;
+    padding-right: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.shopping-section .gadgets-box:first-child .gadgets-text{
+    gap: 220px;   
+}
+
+/** footer styling **/
+/* ===== FOOTER ===== */
+footer {
+    background-color: #212121;
+}
+
+.foot-panel1 {
+    max-width: 1400px;
+    margin: auto;
+    padding: 40px 20px;
+    color: white;
+    display: flex;
+    gap: 30px;
+    font-size: 12px;
+}
+
+/* footer columns */
+.foot-panels {
+    min-width: 150px;
+}
+
+.foot-panels ul {
+    list-style: none;
+}
+
+.foot-panels p {
+    color: #878787;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+/* links */
+.foot-panels a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 4px 0;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.foot-panels a:hover {
+    text-decoration: underline;
+}
+
+/* mail + social */
+.mail-social {
+    max-width: 260px;
+    border-left: 1px solid #878787;
+    padding-left: 20px;
+}
+
+.mail-social a {
+    display: block;
+    color: #878787;
+    margin-bottom: 10px;
+}
+
+.mail-social p {
+    line-height: 1.5;
+}
+
+.social {
+    margin-top: 15px;
+}
+
+.social i {
+    margin-right: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* address */
+.address {
+    max-width: 300px;
+}
+
+.address a {
+    display: block;
+    color: #878787;
+    margin-bottom: 10px;
+}
+
+.address p {
+    line-height: 1.5;
+}
+
+footer::before {
+    content: "";
+    display: block;
+    height: 1px;
+    background-color: #454d5e;
+    margin: 0 20px;
+}
+
